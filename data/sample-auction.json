@@ -1,0 +1,39 @@
+{
+  "seed": 12345,
+  "generatedAt": "2026-03-15T12:00:00.000Z",
+  "note": "Sample run — 10 lots, 5 bots. Shows how hype distorts price vs intrinsic value.",
+  "artworks": [
+    { "id": 0, "title": "Study for Hype #01", "palette": "Pastel Void", "isMonochrome": false, "complexity": 6, "coverage": 0.18, "intrinsicValue": 1599, "year": 2025, "medium": "Generative vector" },
+    { "id": 1, "title": "Composition in #02", "palette": "Noir Gold", "isMonochrome": false, "complexity": 6, "coverage": 0.23, "intrinsicValue": 1531, "year": 2024, "medium": "Algorithmic acrylic" },
+    { "id": 2, "title": "Late Capital #03", "palette": "Neon Pop", "isMonochrome": false, "complexity": 6, "coverage": 0.13, "intrinsicValue": 1534, "year": 2025, "medium": "Digital pigment on canvas" },
+    { "id": 3, "title": "Untitled (Fever #04", "palette": "Pastel Void", "isMonochrome": false, "complexity": 7, "coverage": 0.22, "intrinsicValue": 1693, "year": 2024, "medium": "Plotter ink on archival paper" },
+    { "id": 4, "title": "Composition in #05", "palette": "Earth Mineral", "isMonochrome": false, "complexity": 7, "coverage": 0.18, "intrinsicValue": 1655, "year": 2025, "medium": "Generative vector" },
+    { "id": 5, "title": "Market Anxiety #06", "palette": "Neon Pop", "isMonochrome": false, "complexity": 8, "coverage": 0.31, "intrinsicValue": 1842, "year": 2024, "medium": "Digital pigment on canvas" },
+    { "id": 6, "title": "Signal / Noise #07", "palette": "Oceanic", "isMonochrome": false, "complexity": 5, "coverage": 0.15, "intrinsicValue": 1420, "year": 2025, "medium": "Generative vector" },
+    { "id": 7, "title": "Volume & Void #08", "palette": "Monochrome", "isMonochrome": true, "complexity": 4, "coverage": 0.12, "intrinsicValue": 1388, "year": 2024, "medium": "Plotter ink on archival paper" },
+    { "id": 8, "title": "After the Bid #09", "palette": "Pastel Void", "isMonochrome": false, "complexity": 9, "coverage": 0.28, "intrinsicValue": 1910, "year": 2025, "medium": "Algorithmic acrylic" },
+    { "id": 9, "title": "Price Discovery #10", "palette": "Monochrome", "isMonochrome": true, "complexity": 5, "coverage": 0.16, "intrinsicValue": 1511, "year": 2024, "medium": "Digital pigment on canvas" }
+  ],
+  "results": [
+    { "lot": 1, "title": "Study for Hype #01", "intrinsicValue": 1599, "startingPrice": 784, "hammerPrice": 3421, "status": "sold", "winner": "whale", "bidCount": 6, "hypeRatio": 2.14, "premium": 1822 },
+    { "lot": 2, "title": "Composition in #02", "intrinsicValue": 1531, "startingPrice": 612, "hammerPrice": 1755, "status": "sold", "winner": "rational", "bidCount": 3, "hypeRatio": 1.15, "premium": 224 },
+    { "lot": 3, "title": "Late Capital #03", "intrinsicValue": 1534, "startingPrice": 659, "hammerPrice": 2988, "status": "sold", "winner": "hypebeast", "bidCount": 5, "hypeRatio": 1.95, "premium": 1454 },
+    { "lot": 4, "title": "Untitled (Fever #04", "intrinsicValue": 1693, "startingPrice": 812, "hammerPrice": 2210, "status": "sold", "winner": "whale", "bidCount": 4, "hypeRatio": 1.31, "premium": 517 },
+    { "lot": 5, "title": "Composition in #05", "intrinsicValue": 1655, "startingPrice": 702, "hammerPrice": 1850, "status": "sold", "winner": "flipper", "bidCount": 2, "hypeRatio": 1.12, "premium": 195 },
+    { "lot": 6, "title": "Market Anxiety #06", "intrinsicValue": 1842, "startingPrice": 884, "hammerPrice": 4120, "status": "sold", "winner": "hypebeast", "bidCount": 7, "hypeRatio": 2.24, "premium": 2278 },
+    { "lot": 7, "title": "Signal / Noise #07", "intrinsicValue": 1420, "startingPrice": 596, "hammerPrice": null, "status": "unsold", "winner": null, "bidCount": 0, "hypeRatio": null, "premium": null },
+    { "lot": 8, "title": "Volume & Void #08", "intrinsicValue": 1388, "startingPrice": 555, "hammerPrice": 2415, "status": "sold", "winner": "snob", "bidCount": 4, "hypeRatio": 1.74, "premium": 1027 },
+    { "lot": 9, "title": "After the Bid #09", "intrinsicValue": 1910, "startingPrice": 955, "hammerPrice": 2440, "status": "sold", "winner": "rational", "bidCount": 3, "hypeRatio": 1.28, "premium": 530 },
+    { "lot": 10, "title": "Price Discovery #10", "intrinsicValue": 1511, "startingPrice": 604, "hammerPrice": 2633, "status": "sold", "winner": "snob", "bidCount": 5, "hypeRatio": 1.74, "premium": 1122 }
+  ],
+  "summary": {
+    "totalLots": 10,
+    "soldCount": 9,
+    "unsoldCount": 1,
+    "totalHammer": 23832,
+    "totalIntrinsic": 16083,
+    "totalPremium": 9169,
+    "avgHype": 1.63,
+    "sellThrough": 0.9
+  }
+}

@@ -1,0 +1,27 @@
+:root {
+  --bg: #0a0a0b;
+  --surface: #141416;
+  --surface-2: #1c1c20;
+  --border: #2a2a30;
+  --text: #f2f2f3;
+  --muted: #9a9aa0;
+  --accent: #ff3b30;
+  --accent-2: #ffd60a;
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.mono { font-family: "JetBrains Mono", monospace; }
+
+a { color: inherit; }
+
+/* placeholder — will be expanded in UI commit */
+#app { min-height: 100vh; display: grid; place-items: center; color: var(--muted); }

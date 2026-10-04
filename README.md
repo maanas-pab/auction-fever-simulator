@@ -5,7 +5,8 @@
 
 ![p5.js](https://img.shields.io/badge/p5.js-1.9.4-ED225D?style=flat-square) ![vite](https://img.shields.io/badge/vite-5.x-646CFF?style=flat-square) ![license](https://img.shields.io/badge/license-MIT-black?style=flat-square)
 
-**Live demo:** `npm run dev` → http://localhost:5173
+**Live demo:** `npm run dev` → LocalHost
+**Live Site:** https://maanas-pab.github.io/auction-fever-simulator/
 
 ---
 
